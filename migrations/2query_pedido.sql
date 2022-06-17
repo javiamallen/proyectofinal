@@ -1,0 +1,8 @@
+CREATE TABLE pedido(
+  email FOREIGN KEY,
+  id_pedido INT NOT NULL,
+  producto FOREIGN KEY VARCHAR(400)
+  NOT NULL
+  precio FOREIGN KEY INT NOT NULL
+  subtotal INT NOT NULL
+);
