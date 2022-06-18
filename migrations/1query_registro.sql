@@ -1,10 +1,10 @@
 --Crear Tabla
 CREATE TABLE users(
-    id SERIAL PRIMARY KEY,
-    password VARCHAR(20) NOT NULL,
-    name VARCHAR(255) NOT NULL,
+    email SERIAL PRIMARY KEY,
+    nombre VARCHAR(25) NOT NULL,
+    apellido VARCHAR(25) NOT NULL,
     celular INT(10) NOT NULL,
     comuna VARCHAR(25) NOT NULL
 );
 
-  INSERT INTO users(email, password, admin) VALUES('user@admin.com', 'password', true);
+  INSERT INTO users(email, nombre, admin) VALUES('user@admin.com', 'usuario1', true);
