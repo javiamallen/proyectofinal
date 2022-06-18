@@ -4,5 +4,5 @@ CREATE TABLE detalle(
   id_pedido INT NOT NULL,
   id_producto INT NOT NULL,
   precio FOREIGN key INT NOT NULL,
-  subtotal INT NOT NULL
+  total INT NOT NULL
 );
